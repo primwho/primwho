@@ -34,7 +34,8 @@ var randomFot = f.splice(Math.floor(Math.random() * (i + 1)), 1)[0];
 if(randomFot < 20){
 $('.photos').append('<div style="background:rgba(0,0,0,.8)"><img src="arquivos/photos/'+randomFot+'.jpg"></div>');
 $('.photos').append('<div style="background:rgba(0,0,0,.8)"><img src="arquivos/photos/'+randomFot+'.JPG"></div>');
-$('.bio').css('background','url(arquivos/photos/'+randomFot+'.jpg) rgba(0,0,0,.7)')
+$('.bio').css('background','url(arquivos/photos/'+randomFot+'.jpg) rgba(0,0,0,.7)');
+$('.bio').css('background','url(arquivos/photos/'+randomFot+'.JPG) rgba(0,0,0,.7)')
 }
 }
 
