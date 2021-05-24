@@ -174,13 +174,13 @@ footer p{
     
   }
   .photos div{
-    width:calc(300px + 13%);
+    width:calc(300px);
     min-height: 400px;
   }
   #full{
     max-width: 95% !important;
   }
-  #overlay{
-    
+  .videos{
+    flex-direction: column
   }
 }
