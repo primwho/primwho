@@ -184,4 +184,19 @@ footer p{
     flex-direction: column;
     width: 100% !important
   }
+  bio{
+    flex-direction: column !important;
+    height: 560px;
+    padding-top: 10px;
+    width:100% !important;
+  }
+  .bio .text{
+  width:80%;
+    padding: 30px;
+    font-size: 13px
+}
+  .bio .photo{
+    left: 50%;
+    transform: translatex(50%)
+  }
 }
