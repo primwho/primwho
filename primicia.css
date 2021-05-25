@@ -184,7 +184,7 @@ footer p{
     flex-direction: column;
     width: 100% !important
   }
-  bio{
+  .bio{
     flex-direction: column !important;
     height: 560px;
     padding-top: 10px;
