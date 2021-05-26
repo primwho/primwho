@@ -82,7 +82,7 @@ body{margin:0}
 .photos div:hover:before{
   opacity: 1 !important;
 }
-*{font-family: calibri}
+*{font-family: Verdana}
 
 #plusP{
   position: relative;
