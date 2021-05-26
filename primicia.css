@@ -171,7 +171,7 @@ footer p{
     padding: 10px;
     flex-direction:column ;
     flex-wrap: nowrap;
-    
+    width: 100% !important
   }
   .photos div{
     width:calc(300px);
@@ -181,6 +181,22 @@ footer p{
     max-width: 95% !important;
   }
   .videos{
-    flex-direction: column
+    flex-direction: column;
+    width: 100% !important
+  }
+  .bio{
+    flex-direction: column !important;
+    height: 560px;
+    padding-top: 10px;
+    width:100% !important;
+  }
+  .bio .text{
+  width:80%;
+    padding: 30px;
+    font-size: 13px
+}
+  .bio .photo{
+    left: 50%;
+    transform: translatex(50%)
   }
 }
